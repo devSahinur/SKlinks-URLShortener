@@ -29,11 +29,11 @@ function App() {
           <SearchBar className='Search-bar' placeholder='Paste your url here' onChange={onChangeSearch} value={searchValue}
             onRequestSearch={() => {
               try {
-                const response = axios.post('https://skmsi.herokuapp.com/url', { url: searchValue });
+                const response = axios.post('https://sklinks.herokuapp.com/url', { url: searchValue });
                 console.log('👉 Returned data:', response.then((res) => {
                     if (res.status == 200) {
                       console.log(res.data.slug);
-                      setValue('https://skmsi.herokuapp.com/'+res.data.slug);
+                      setValue('https://sklinks.herokuapp.com/'+res.data.slug);
                     } else {
                       setValue('Enter a valid URL!!');
                       console.log('error');
