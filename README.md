@@ -7,7 +7,7 @@ Visit https://sklinks.herokuapp.com/
 
 
 ## Screenshots / Demo
-![demo of the app](./Screenshots/tinify-gif.gif)
+![demo of the app](./Screenshots/tamplate.gif)
 
 ## Technologies used
 <img align="left" src="https://img.icons8.com/color/452/mongodb.png" width="100px" height="100px" alt = "mongodb">
