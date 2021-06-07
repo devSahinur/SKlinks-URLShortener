@@ -48,3 +48,10 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+.MuiPaper-rounded {
+  border-radius: 4px;
+  border: 2px solid #5E16EB;
+}
+svg.MuiSvgIcon-root.ForwardRef-icon-5 {
+  color: #5E16EB;
+}

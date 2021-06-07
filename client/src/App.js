@@ -67,7 +67,7 @@ function App() {
       </div>
       <br />
       <footer>
-        <h3>Made with ❤️  by <a style={{color: "black"}}href="http://sahinur.netlify.app">Sahinur Islam</a></h3>
+        <h3>Made with ❤️  by <a style={{color: "#5E16EB"}}href="http://sahinur.netlify.app">Sahinur Islam</a></h3>
       </footer>
     </div>
 
