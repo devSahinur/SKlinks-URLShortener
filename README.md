@@ -1,4 +1,4 @@
-# SKlinks - A free URL shortener
+# SkLinks - A free URL shortener
 ![logo](./Screenshots/logo.png)
 
 A free url shortener developed using Mongo, Express, React and Node (MERN stack). This app is currently running a beta version.
