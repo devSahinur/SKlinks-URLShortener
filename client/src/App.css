@@ -1,11 +1,14 @@
-
+img {
+  width: 300px;
+  height: 300px;
+}
 
 .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 100vh;
+  height: 95vh;
   
 }
 

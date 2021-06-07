@@ -3,7 +3,7 @@ import './App.css';
 import SearchBar from "material-ui-search-bar";
 import axios from 'axios';
 import ParticlesBg from 'particles-bg';
-import logo from './s-logo.png';
+import logo from './logo1.png';
 import { Segment } from 'semantic-ui-react';
 function App() {
   const [searchValue, setSearchValue] = useState('');
@@ -19,11 +19,11 @@ function App() {
       </div>
       <div className="container">
         <header className="App-header">
-          {/* <img src = {logo} /> */}
+          <img src = {logo} />
         </header>
-        <div className="Subtitle-area">
+        {/* <div className="Subtitle-area">
           <h4>Shorten your URL!</h4> <br />
-        </div>
+        </div> */}
         <div className="Search-area">
 
           <SearchBar className='Search-bar' placeholder='Paste your url here' onChange={onChangeSearch} value={searchValue}
